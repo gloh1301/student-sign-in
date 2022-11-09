@@ -11,6 +11,7 @@
 </template>
 
 <script>
+// connects to child componets
 import NewStudentForm from './components/NewStudentForm.vue'
 import StudentMessage from './components/StudentMessage.vue'
 import StudentTable from './components/StudentTable.vue'
@@ -61,6 +62,7 @@ export default {
 
 <style>
 
+/* imported bootstrap styles */
 @import "https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css";
 
 </style>

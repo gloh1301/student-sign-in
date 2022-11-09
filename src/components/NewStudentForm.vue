@@ -38,6 +38,8 @@ export default {
         }
     },
     methods: {
+
+        // checks for errors and if none are present then the student is added
         addStudent() {
             this.errors = []
 

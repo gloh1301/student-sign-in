@@ -5,6 +5,9 @@
         <td>
         <input type="checkbox" v-bind:checked="student.present" v-on:change="arrivedOrLeft(student, $event.target.checked)">
         </td>
+
+        <!-- gets the delete image makes it clickable -->
+        <!-- v-show if edit checkbox is on -->
         <td v-show="edit"> <img v-on:click="deleteStudent" src="@/assets/delete.png"> </td>
     </tr>
 </template>

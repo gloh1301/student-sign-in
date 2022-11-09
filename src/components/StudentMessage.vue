@@ -1,6 +1,7 @@
 <template>
     <div v-if="student.name">
 
+        <!-- enter and exit messages -->
         <div class="alert alert-info" v-if="student.present">
             Welcome, {{ student.name }}
         </div>
@@ -18,7 +19,6 @@ export default {
     props: {
         student: Object
     }
-
 }
 </script>
 

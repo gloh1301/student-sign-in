@@ -36,6 +36,7 @@
 
 <script>
 
+// child of student table
 import StudentRow from '@/components/StudentRow.vue'
 
 export default {
@@ -53,6 +54,8 @@ export default {
         }
     },
     methods: {
+
+        // emits messages to parent 
         arrivedOrLeft(student, present) {
             this.$emit('student-arrived-or-left', student, present)
         },
